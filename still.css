@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="hr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maja Lukavečki - Digitalni multimedij 1</title>
-    <style>
-        /* @font-face definira prilagođeni font */
+@charset "utf-8";
+/* CSS Document */
+<style>
         @font-face {
             font-family: 'MajaLukavecki';
             src: url('Dokumenti2/MajaLukavecki.ttf') format('truetype');
@@ -13,21 +8,19 @@
             font-style: normal;
         }
 
-        /* Globalni stilovi */
         body {
-            font-family: Arial, sans-serif;
-            background: url('background.jpg') no-repeat center center fixed; /* Zamijeni 'background.jpg' svojom slikom */
+            font-family: MajaLukavecki;
+            background: url('pozadina.png') no-repeat center center fixed;
             background-size: cover;
             color: #333;
             margin: 0;
             padding: 0;
         }
 
-        /* Stilovi za zaglavlje */
         header {
             text-align: center;
             padding: 50px 20px;
-            background-color: rgba(255, 255, 255, 0.7); /* Poluprozirna pozadina za bolju čitljivost */
+            background-color: rgba(255, 255, 255, 0.7); 
             border-bottom: 2px solid #ccc;
         }
 
@@ -35,7 +28,7 @@
             font-size: 36px;
             color: #2c3e50;
             text-shadow: 2px 2px 4px #000;
-            font-family: 'MajaLukavecki', sans-serif; /* Koristi tvoj prilagođeni font */
+            font-family: 'MajaLukavecki'
         }
 
         header h2 {
@@ -44,7 +37,6 @@
             margin-top: -10px;
         }
 
-        /* Stilovi za navigaciju */
         nav {
             text-align: center;
             background-color: rgba(255, 255, 255, 0.7);
@@ -78,7 +70,6 @@
             color: #fff;
         }
 
-        /* Stilovi za glavni sadržaj */
         main {
             padding: 20px;
             text-align: center;
@@ -91,27 +82,3 @@
         main p {
             font-size: 18px;
         }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Maja Lukavečki</h1>
-        <h2>Kolegij Digitalni multimedij 1</h2>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Početna</a></li>
-            <li><a href="o_meni.html">O meni</a></li>
-            <li><a href="vjezbe.html">Vježbe</a></li>
-            <li><a href="video.html">Video</a></li>
-        </ul>
-    </nav>
-    <main>
-        <p>Ja sam Maja Lukavečki i dobro došli na moje stranice.</p>
-    </main>
-</body>
-</html>
-
-
-
-
